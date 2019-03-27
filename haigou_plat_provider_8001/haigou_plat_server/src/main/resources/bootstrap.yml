@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:1299 # 配置中心服务地址
+      label: master #仓库的分支
+      name: service_provider_application #仓库配置的名称
+#      profile: dve #环境名称
+      profile: ${spring.actives.profile} #运行时的环境 动态获取
