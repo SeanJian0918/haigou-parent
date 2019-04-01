@@ -9,8 +9,12 @@
         <module name="haigou_basic_util" />
         <module name="haigou_config_server_1299" />
         <module name="haigou_eureka_server_7001" />
+        <module name="haigou_generator" />
         <module name="haigou_plat_interface" />
         <module name="haigou_plat_server" />
+        <module name="haigou_product_interface" />
+        <module name="haigou_product_interface_8003" />
+        <module name="haigou_product_service" />
         <module name="haigou_zuul_server_9527" />
       </profile>
     </annotationProcessing>
@@ -19,10 +23,17 @@
       <module name="haigou_basic_util" target="1.8" />
       <module name="haigou_config_server_1299" target="1.8" />
       <module name="haigou_eureka_server_7001" target="1.8" />
+      <module name="haigou_generator" target="1.8" />
       <module name="haigou_parent" target="1.8" />
       <module name="haigou_plat_interface" target="1.8" />
       <module name="haigou_plat_provider_8001" target="1.8" />
       <module name="haigou_plat_server" target="1.8" />
+      <module name="haigou_product_interface" target="1.8" />
+      <module name="haigou_product_interface_8003" target="1.8" />
+      <module name="haigou_product_parent" target="1.8" />
+      <module name="haigou_product_provider_8003" target="1.8" />
+      <module name="haigou_product_service" target="1.8" />
+      <module name="haigou_product_service_8003" target="1.8" />
       <module name="haigou_zuul_server_9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>

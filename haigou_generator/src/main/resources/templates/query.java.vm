@@ -1,0 +1,10 @@
+package cn.seanjian.haigou.query;
+
+import cn.seanjian.haigou.util.BaseQuery;
+/**
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+public class ${table.entityName}Query extends BaseQuery{
+}

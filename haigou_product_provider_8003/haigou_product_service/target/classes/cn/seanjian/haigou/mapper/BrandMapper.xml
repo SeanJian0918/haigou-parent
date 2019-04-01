@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.seanjian.haigou.mapper.BrandMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.seanjian.haigou.domain.Brand">
+        <id column="id" property="id"/>
+        <result column="createTime" property="createTime"/>
+        <result column="updateTime" property="updateTime"/>
+        <result column="name" property="name"/>
+        <result column="englishName" property="englishName"/>
+        <result column="firstLetter" property="firstLetter"/>
+        <result column="description" property="description"/>
+        <result column="productTypeId" property="productTypeId"/>
+        <result column="sortIndex" property="sortIndex"/>
+        <result column="logo" property="logo"/>
+    </resultMap>
+    <resultMap id="BaseMap" type="Brand">
+        <!--基本属性-->
+        <id column="id" property="id"/>
+        <result column="createTime" property="createTime"/>
+        <result column="updateTime" property="updateTime"/>
+        <result column="name" property="name"/>
+        <result column="englishName" property="englishName"/>
+        <result column="firstLetter" property="firstLetter"/>
+        <result column="description" property="description"/>
+        <result column="productTypeId" property="productTypeId"/>
+        <result column="sortIndex" property="sortIndex"/>
+        <result column="logo" property="logo"/>
+        <!--关联属性-->
+        <association property="productType" javaType="ProductType">
+            <id column="pid" property="id"/>
+            <result column="pname" property="name"/>
+        </association>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, createTime, updateTime, name, englishName, firstLetter, description, productTypeId, sortIndex, logo
+    </sql>
+    <!--查询总条数-->
+    <select id="QueryCount" parameterType="BrandQuery" resultType="long">
+        SELECT
+	COUNT(id)
+        FROM
+	t_brand
+	<include refid="whereSql"/>
+    </select>
+
+    <!--分页查询-->
+    <select id="queryPageList" parameterType="BrandQuery" resultMap="BaseMap">
+        SELECT
+	b.id,
+	b.createTime,
+	b.updateTime,
+	b.`name`,
+	b.englishName,
+	b.firstLetter,
+	b.description,
+	b.sortIndex,
+	b.logo,
+	p.id,
+	p.`name` pname
+        FROM
+	t_brand b
+        JOIN t_product_type p ON b.productTypeId = p.id
+    <include refid="whereSql"/>
+        LIMIT #{start},#{rows}
+    </select>
+
+    <sql id="whereSql">
+        <where>
+            <if test="keyword != null and keyword != ''">
+                b.name LIKE concat("%",#{keyword},"%") OR
+                b.description LIKE concat("%",#{keyword},"%")
+            </if>
+        </where>
+    </sql>
+
+</mapper>

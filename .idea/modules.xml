@@ -6,10 +6,14 @@
       <module fileurl="file://$PROJECT_DIR$/haigou_basic_parent/haigou_basic_util/haigou_basic_util.iml" filepath="$PROJECT_DIR$/haigou_basic_parent/haigou_basic_util/haigou_basic_util.iml" />
       <module fileurl="file://$PROJECT_DIR$/haigou_config_server_1299/haigou_config_server_1299.iml" filepath="$PROJECT_DIR$/haigou_config_server_1299/haigou_config_server_1299.iml" />
       <module fileurl="file://$PROJECT_DIR$/haigou_eureka_server_7001/haigou_eureka_server_7001.iml" filepath="$PROJECT_DIR$/haigou_eureka_server_7001/haigou_eureka_server_7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haigou_generator/haigou_generator.iml" filepath="$PROJECT_DIR$/haigou_generator/haigou_generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/haigou_parent.iml" filepath="$PROJECT_DIR$/haigou_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/haigou_plat_provider_8001/haigou_plat_interface/haigou_plat_interface.iml" filepath="$PROJECT_DIR$/haigou_plat_provider_8001/haigou_plat_interface/haigou_plat_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/haigou_plat_provider_8001/haigou_plat_provider_8001.iml" filepath="$PROJECT_DIR$/haigou_plat_provider_8001/haigou_plat_provider_8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/haigou_plat_provider_8001/haigou_plat_server/haigou_plat_server.iml" filepath="$PROJECT_DIR$/haigou_plat_provider_8001/haigou_plat_server/haigou_plat_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haigou_product_provider_8003/haigou_product_interface/haigou_product_interface.iml" filepath="$PROJECT_DIR$/haigou_product_provider_8003/haigou_product_interface/haigou_product_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haigou_product_provider_8003/haigou_product_provider_8003.iml" filepath="$PROJECT_DIR$/haigou_product_provider_8003/haigou_product_provider_8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haigou_product_provider_8003/haigou_product_service/haigou_product_service.iml" filepath="$PROJECT_DIR$/haigou_product_provider_8003/haigou_product_service/haigou_product_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/haigou_zuul_server_9527/haigou_zuul_server_9527.iml" filepath="$PROJECT_DIR$/haigou_zuul_server_9527/haigou_zuul_server_9527.iml" />
     </modules>
   </component>

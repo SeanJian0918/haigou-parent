@@ -6,9 +6,13 @@
     <file url="file://$PROJECT_DIR$/haigou_basic_parent/haigou_basic_util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haigou_config_server_1299" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haigou_eureka_server_7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/haigou_generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haigou_plat_provider_8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haigou_plat_provider_8001/haigou_plat_interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haigou_plat_provider_8001/haigou_plat_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/haigou_product_provider_8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/haigou_product_provider_8003/haigou_product_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/haigou_product_provider_8003/haigou_product_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/haigou_zuul_server_9527" charset="UTF-8" />
   </component>
 </project>

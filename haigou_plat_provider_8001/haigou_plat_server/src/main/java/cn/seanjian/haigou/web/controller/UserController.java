@@ -1,6 +1,6 @@
 package cn.seanjian.haigou.web.controller;
 
-import cn.seanjian.aigou.util.AjaxResult;
+import cn.seanjian.haigou.util.AjaxResult;
 import cn.seanjian.haigou.domain.User;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestBody;

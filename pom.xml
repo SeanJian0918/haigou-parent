@@ -14,6 +14,8 @@
         <module>haigou_config_server_1299</module>
         <module>haigou_zuul_server_9527</module>
         <module>haigou_plat_provider_8001</module>
+        <module>haigou_generator</module>
+        <module>haigou_product_provider_8003</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
